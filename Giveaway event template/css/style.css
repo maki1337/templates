@@ -1,0 +1,95 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#showcase {
+    background: url(../img/showcase-min.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay {
+    width: 100%;
+    height: auto;
+    background: rgba(46, 211, 32, 0.3);
+}
+
+.form {
+    background: #f9f9f9;
+    border-radius: 2px;
+}
+
+#showcase .container {
+    padding-top: 60px;
+}
+
+#showcase .form-group label {
+    font-weight: 600;
+    color:#A9A9A9;
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+}
+
+#showcase .form-check label {
+    color:#333;
+    font-size: 12px;
+    
+    
+}
+
+#showcase button {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+input[type='checkbox'] {
+   
+    width:16px;
+    height:16px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+input[type='checkbox']:checked {
+    background: #abd;
+}
+
+#showcase .heading {
+    letter-spacing: 5px;
+    line-height: 1.4em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+    font-size: 2.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#showcase img {
+    display: inline-block;
+    height: 70px;
+    width: 230px;
+    margin: 10px;
+}
+
+#benefits {
+    background: #f9f9f9;
+}
+
+#benefits h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1.5rem;
+}
+
+#benefits i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
