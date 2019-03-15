@@ -1,0 +1,369 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    position:absolute;
+    width:100%;
+    z-index:10;
+    max-width:100%;
+    background: transparent;
+}
+
+nav a {
+    color:#fff;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-bottom: 2px dotted;
+}
+
+
+nav a:hover {
+    color: #30c39e;
+    transition:  0.4s linear;
+    -webkit-transition:  0.4s linear;
+    -moz-transition:  0.4s linear;
+}
+
+li .active2 {
+    color: #30c39e !important;
+}
+
+nav .navbar-brand {
+    position: relative;
+    font-weight: 700;
+    font-size:2em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+    border:none !important;
+}
+
+.navbar-brand span {
+    position: absolute;
+    font-size:18px;
+    font-weight: 400;
+    left: 35%;
+    bottom: -30%;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.22)
+    
+}
+
+.socials a {
+    border:none !important;
+    font-size:20px;
+}
+
+
+#showcase img {
+    height: 90vh !important;
+}
+
+/* #showcase .carousel-item{
+    position: relative;
+} */
+
+#showcase .black-overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#showcase .banner-text {
+    padding: 18vw 0 0;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+
+#showcase .tag {
+    display: block;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+#showcase .header {
+    letter-spacing: 5px;
+    line-height: 1.4em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #fff;
+}
+
+#showcase .button {
+    
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    background: #30c39e;
+    border: 2px solid #30c39e;
+    padding: 12px 35px;
+    letter-spacing: 2px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    
+}
+
+#showcase .button:hover {
+    background: transparent;
+}
+
+/*Welcome section*/
+#welcome {
+    background: #30c39e;
+    color:white;
+}
+
+#welcome a {
+    color:white;
+}
+
+#welcome .button2 {
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid white;
+    padding: 12px 35px;
+    letter-spacing: 2px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    float: right;
+}
+#welcome .button2:hover {
+   color: #30c39e;
+   background: white;
+}
+
+.heading-section {
+    font-size: 50px;
+    letter-spacing: 0px;
+    font-weight: 600;
+}
+
+/*service header*/
+#services {
+    color:#333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-header {
+    text-transform: uppercase;
+}
+#services h3 i {
+    background: #30c39e;
+    border: 5px solid #2cab8b;
+    color: #fff;
+    width: 55px;
+    text-align: center;
+    height: 55px;
+    line-height: 46px;
+    border-radius: 50%;
+    font-size: 21px;
+    margin-right: 5px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+#services h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #30c39e;
+    font-size: 23px;
+}
+
+#services p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #777;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: .5em 0 1em;
+}
+
+ul li {
+    list-style: none;
+    display: block;
+    font-size: 18px;
+  
+}
+#services ul {
+    padding: 0;
+    margin: 0;
+}
+.li-text {
+    display: block;
+}
+
+#services ul li:hover {
+    position: relative;
+    list-style: none;
+    font-size: 18px;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 2s;
+  
+}
+
+@-webkit-keyframes run {
+    0% { left: 0;}
+    50%{ left : 10%;}
+    100%{ left: 10%;}
+}
+
+/*book section*/
+#book {
+    background: url(/bs4boiler/images/book.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+#book .black-overlay {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.book-header {
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+}
+
+#book p {
+    letter-spacing: 1px;
+}
+
+#book .button3 {
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid white;
+    padding: 12px 35px;
+    letter-spacing: 2px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+     -moz-transition: all 0.4s linear;
+}
+
+#book .button3:hover {
+    background: white;
+    color:#30c39e;
+} 
+
+.bg-light {
+    background: #f8f9fa;
+}
+
+/*picture section*/
+#picture1 {
+    background-color: #f8f9fa !important;
+}
+#picture1 h3 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+#picture1 p {
+    line-height: 30px;
+}
+
+/*picture 2 section*/
+#picture2 h3 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+#picture2 p {
+    line-height: 30px;
+}
+
+#picture2 .button4 {
+    color: #333;
+    font-size: 16px;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #333;
+    padding: 12px 35px;
+    letter-spacing: 2px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+     -moz-transition: all 0.4s linear;
+
+}
+
+#picture2 .button4:hover {
+    color: white;
+    background: #30c39e;
+    border: 2px solid #30c39e;
+}
+
+#footer {
+    background: #333;
+    color:white;
+}
+#footer .logo-brand {
+    position: relative;
+    font-weight: 700;
+    font-size:2em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+    border:none !important;
+}
+
+#footer span {
+    position: absolute;
+    font-size:18px;
+    font-weight: 400;
+    left: 10%;
+    bottom: -30%;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+} 
+
+#footer p {
+    color: #8a8a8a;
+}
+
+#footer li {
+    color:#8a8a8a;
+}
+
+
